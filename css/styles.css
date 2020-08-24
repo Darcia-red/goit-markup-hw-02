@@ -1,11 +1,20 @@
+:root {
+  --white: #ffffff;
+  --blue: #2196f3;
+  --black: #212121;
+  --grey: #757575;
+  --deep-blue: #2f303a;
+  --light-grey: #f5f4fa;
+}
 .header {
-  background-color: --white white;
+  background-color: var(white);
 }
 a:hover {
-  color: #2196f3;
+  color: var(--blue);
 }
+
 a:focus {
-  color: #2196f3;
+  color: var(--blue);
 }
 
 .header-link {
@@ -15,7 +24,7 @@ a:focus {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--black);
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -26,7 +35,7 @@ a:focus {
 
   letter-spacing: 0.03em;
 
-  color: #2196f3;
+  color: var(--blue);
 }
 .logo-black {
   font-family: "Raleway", sans-serif;
@@ -37,7 +46,7 @@ a:focus {
 
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--black);
 }
 .contacts-link {
   font-family: "Roboto", sans-serif;
@@ -47,7 +56,7 @@ a:focus {
   line-height: 16px;
   letter-spacing: 0.02em;
 
-  color: #757575;
+  color: var(--grey);
 }
 .main-title {
   font-family: "Roboto", sans-serif;
@@ -60,10 +69,10 @@ a:focus {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  color: #ffffff;
+  color: var(--white);
 }
 .main-hero {
-  background: #2f303a;
+  background: var(--deep-blue);
 }
 .service-button {
   font-family: "Roboto", sans-serif;
@@ -77,8 +86,8 @@ a:focus {
   text-align: center;
   letter-spacing: 0.06em;
 
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--white);
+  background-color: var(--blue);
 }
 .item-title {
   font-family: "Roboto", sans-serif;
@@ -89,7 +98,7 @@ a:focus {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: #212121;
+  color: var(--black);
 }
 .item-text {
   font-family: "Roboto", sans-serif;
@@ -100,7 +109,7 @@ a:focus {
 
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--grey);
 }
 .business-title {
   font-family: "Roboto", sans-serif;
@@ -111,7 +120,7 @@ a:focus {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--black);
 }
 .team-title {
   font-family: "Roboto", sans-serif;
@@ -122,7 +131,7 @@ a:focus {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--black);
 }
 .team-member-name {
   font-family: "Roboto", sans-serif;
@@ -134,7 +143,7 @@ a:focus {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--black);
 }
 .team-member-job {
   font-family: "Roboto", sans-serif;
@@ -146,7 +155,7 @@ a:focus {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--grey);
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -158,14 +167,14 @@ a:focus {
 
   letter-spacing: 0.03em;
 
-  color: #2196f3;
+  color: var(--blue);
 }
 .bottom {
-  background: #2f303a;
+  background: var(--deep-blue);
 }
 
 .footer-logo-white {
-  color: #ffffff;
+  color: var(--white);
 }
 .adress {
   font-family: "Roboto", sans-serif;
@@ -176,7 +185,7 @@ a:focus {
 
   letter-spacing: 0.03em;
 
-  color: #ffffff;
+  color: var(--white);
 }
 .bottom-links {
   font-family: "Roboto", sans-serif;
@@ -189,7 +198,7 @@ a:focus {
   color: rgba(255, 255, 255, 0.6);
 }
 .portfolio-button {
-  background: F5F4FA;
+  background: var(--light-grey);
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -200,7 +209,7 @@ a:focus {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--black);
 }
 .portfolio-button:hover {
   font-family: "Roboto", sans-serif;
@@ -213,8 +222,9 @@ a:focus {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #ffffff;
-  background: #2196f3;
+  color: var(--white);
+
+  background: var(--blue);
 }
 .portfolio-title {
   font-family: "Roboto", sans-serif;
@@ -225,7 +235,7 @@ a:focus {
 
   letter-spacing: 0.06em;
 
-  color: #212121;
+  color: var(--black);
 }
 .portfolio-text {
   font-family: "Roboto", sans-serif;
@@ -237,5 +247,5 @@ a:focus {
 
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--grey);
 }
